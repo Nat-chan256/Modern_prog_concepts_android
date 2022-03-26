@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Technical Support</string>
+    <string name="login__btn_text">Вход</string>
+    <string name="login__text_view">Вход</string>
 </resources>
