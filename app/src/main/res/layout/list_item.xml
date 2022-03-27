@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="73sp">
+
+    <TextView
+        android:id="@+id/requestField"
+        android:layout_width="wrap_content"
+        android:layout_height="26sp"
+        android:layout_marginStart="17sp"
+        android:layout_marginTop="25sp"
+        android:fontFamily="@font/roboto"
+        android:textColor="@color/activityTextViewColor"
+        android:textSize="20sp"
+        android:text="в процессе"
+        android:textStyle="normal"/>
+
+    <ImageView
+        android:id="@+id/arrowImageView"
+        android:layout_width="17sp"
+        android:layout_height="32dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="21dp"
+        android:layout_marginEnd="23sp"
+        android:background="@drawable/arrow"/>
+</RelativeLayout>

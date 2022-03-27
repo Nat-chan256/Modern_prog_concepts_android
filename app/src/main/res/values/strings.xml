@@ -2,4 +2,6 @@
     <string name="app_name">Technical Support</string>
     <string name="login__btn_text">Вход</string>
     <string name="login__text_view">Вход</string>
+    <string name="requests__text_view">Список заявок</string>
+    <string name="create_request_button__text">СОЗДАТЬ ЗАЯВКУ</string>
 </resources>
