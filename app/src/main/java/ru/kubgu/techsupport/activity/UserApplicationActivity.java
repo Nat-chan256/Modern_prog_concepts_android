@@ -36,5 +36,11 @@ public class UserApplicationActivity extends androidx.appcompat.app.AppCompatAct
                 // так что, надо это обсудить
             }
         });
+        findViewById(ru.kubgu.techsupport.R.id.createRequestButton).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                startActivity(new android.content.Intent(UserApplicationActivity.this, CreateApplicationActivity.class)); //открытие окна создания заявки
+            }
+        });
     }
 }
