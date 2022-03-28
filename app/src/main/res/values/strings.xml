@@ -4,4 +4,5 @@
     <string name="login__text_view">Вход</string>
     <string name="requests__text_view">Список заявок</string>
     <string name="create_request_button__text">СОЗДАТЬ ЗАЯВКУ</string>
+    <string name="exit__app_by_double_tap_back">Нажмите ещё раз</string>
 </resources>

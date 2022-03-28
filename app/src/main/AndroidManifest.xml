@@ -10,11 +10,19 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.TechnicalSupport">
         <activity
+            android:name=".activity.ShowApplicationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".activity.CreateApplicationActivity"
+            android:exported="false"
+            android:noHistory="true" />
+        <activity
             android:name=".activity.UserApplicationActivity"
             android:exported="false" />
         <activity
             android:name=".activity.MainActivity"
-            android:exported="true">
+            android:exported="true"
+            android:noHistory="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
