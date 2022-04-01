@@ -6,14 +6,13 @@ public class MainActivity extends androidx.appcompat.app.AppCompatActivity {
     @Override
     protected void onCreate(android.os.Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        MainActivity tmp = this;
         setContentView(ru.kubgu.techsupport.R.layout.activity_main);
         loginBtn = findViewById(ru.kubgu.techsupport.R.id.loginButton);
         loginBtn.setOnClickListener(new android.view.View.OnClickListener() {
             @Override
             public void onClick(android.view.View view) {
-                //отправка логина и пароля контроллеру, если:
-                //в базе есть такие данные, то открываем новый активити
-                //в противном случае, информируем о некорректных данных
+                startActivity(new android.content.Intent(tmp,UserApplicationActivity.class));
             }
         });
     }
